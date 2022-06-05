@@ -1,0 +1,11 @@
+# Visual Studio files
+.vs/
+
+[Dd]ebug
+[Rr]elease
+
+*.log
+
+
+!*.cpp
+!*.h
