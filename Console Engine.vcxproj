@@ -67,7 +67,6 @@
     <ClCompile Include="BaseConWin.cpp" />
     <ClCompile Include="ConsoleEngine.cpp" />
     <ClCompile Include="ConsoleRender.cpp" />
-    <ClCompile Include="DELETEME.cpp" />
     <ClCompile Include="EngineTimeInfo.cpp" />
     <ClCompile Include="GameTimeInfo.cpp" />
     <ClCompile Include="main.cpp" />
@@ -84,7 +83,7 @@
     <ClInclude Include="WinError.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
