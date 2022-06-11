@@ -308,8 +308,8 @@ void CCRender::RenderProgressBarExV(int pi_value, int pi_maxValue, int pi_size_w
 
 void CCRender::RenderTimeInformer(int pi_x, int pi_y)
 {
-	RenderBackground(pi_x, pi_y, 20, 4, CC_BLUE);
-	SetConsoleColor(CC_BLUE, CC_GREEN);
+	RenderBackground(pi_x, pi_y, 20, 4, CC_BLACK);
+	SetConsoleColor(CC_BLACK, CC_DARKYELLOW);
 
 	NEWCOUNTER
 		if (m_pEngineTimeInfo->Time < SECPERHOUR * 1000)
@@ -335,8 +335,8 @@ void CCRender::RenderTimeInformer(int pi_x, int pi_y)
 
 void CCRender::RenderClientInformer(int pi_x, int pi_y)
 {
-	RenderBackground(pi_x, pi_y, 20, 6, CC_BLUE);
-	SetConsoleColor(CC_BLUE, CC_GREEN);
+	RenderBackground(pi_x, pi_y, 20, 6, CC_BLACK);
+	SetConsoleColor(CC_BLACK, CC_DARKYELLOW);
 	NEWCOUNTER
 		ConsolePrint(pi_x, pi_y + COUNTER, "SystemState: %s", GetStateName(m_pClientInfo->bySystemState));
 		ConsolePrint(pi_x, pi_y + COUNTER, "UserGrade: %d", m_pClientInfo->byUserGrade);
